@@ -23,6 +23,8 @@
     src: url(fonts/Roboto-Thin.ttf);
 }
 
+/* Learn how to use :root in CSS, learn sitemaps */
+
 
 .nav-margin {
     padding: 25px;
@@ -44,10 +46,13 @@
 }
 
 .links {
+    display: flex;
+    list-style-type: none;
     padding-top: 5px;
     display: flex;
     flex-direction: row;
     margin: 0 0 0 18px;
+    gap: 18px;
 }
 
 a:link {
