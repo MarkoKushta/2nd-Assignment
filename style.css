@@ -25,6 +25,12 @@
 
 /* Learn how to use :root in CSS, learn sitemaps */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 
 .nav-margin {
     padding: 25px;
@@ -43,6 +49,7 @@
     color: #F9FAF8;
     font-family: "Roboto-Regular";
     font-size: 24px;
+    margin-bottom: 20px;
 }
 
 .links {
@@ -91,7 +98,7 @@ a:active {
 }
 
 .below-nav-left {
-    width: 600px;
+    width: 670px;
     display: flex;
     flex-direction: column;
     padding: 25px;
@@ -126,13 +133,13 @@ a:active {
 }
 
 .below-nav-right {
-    width: 1010px;
+    width: 1050px;
     background-color: #1F2937;
     height: 540;
 }
 
 .below-nav-aside {
-    background-color: rgb(114, 114, 114);
+    background-color: #1F2837;
     color: #E5E7EB;
     font-family: "Roboto-Regular";
 }
@@ -162,7 +169,7 @@ a:active {
 }
 
 .small-logos {
-    border: 2px solid #3882F6;
+    border: 2px solid #F9FAF8;
     border-radius: 15%;
     height: 100px;
     width: 100px;
@@ -239,12 +246,10 @@ a:active {
     font-size: 15px;
 }
 
-.cta-right {
-    margin-top: 33px;
-    margin-right: 200px;
-}
 
 .cta-right-button {
+    margin-top: 33px;
+    margin-right: 200px;
     border-radius: 10%;
     padding: 8px 20px;
     background-color: #3882F6;
