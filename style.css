@@ -190,6 +190,7 @@ a:active {
 }
 
 .quote-author {
+    margin-top: 20px;
     margin-right: 500px;
     color: #1F2837;
     font-family: "Roboto-Bold";
