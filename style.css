@@ -230,11 +230,13 @@ a:active {
 .cta-head {
     color: #F9FAF8;
     font-family: "Roboto-Bold";
+    font-size: 18px;
 }
 
 .cta-p {
     color: #F9FAF8;
     font-family: "Roboto-Regular";
+    font-size: 15px;
 }
 
 .cta-right {
